@@ -1,0 +1,1 @@
+This is alx-higher_level_programming project repository. we use Python higher level languge.
