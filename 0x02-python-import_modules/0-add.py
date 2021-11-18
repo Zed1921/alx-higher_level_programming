@@ -1,10 +1,12 @@
 #!/usr/bin/python3
+from add_0 import add
 
-def add(a, b):
-        a = 1
-        b = 2
-        sum = a + b
-        print("{} + {} = {}".format(a, b, sum))
 
-if __name__ == "__add__":
-    add()
+def main():
+            a = 1
+            b = 2
+            c = add(a, b)
+            print("{} + {} = {}".format(a, b, c))
+
+if __name__ == "__main__":
+        main()
