@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-from sys import argv
-from calculator_1 import add, sub, mul, div
-
+import sys
+sys.argv()
+import calculator
+calculator.add()
+calculator.sub()
+calculator.mul()
+calculator.div()
 
 if __name__ == "__main__":
         argc = len(argv) - 1
